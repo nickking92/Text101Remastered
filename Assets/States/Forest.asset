@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e28c798bcbc64546ac78508c0912f2c, type: 3}
+  m_Name: Forest
+  m_EditorClassIdentifier: 
+  storyText: 'You decided to explore the forest,you can hear the sounds of animals,birds
+    and insects around you. After few minutes of walk you stumble across path that
+    leads in two ways
+
+
+    1. You decided to go left           2. You decided to go right'
+  nextStates:
+  - {fileID: 11400000, guid: 869b70c0c8058114fb8553c69aa4c6fa, type: 2}
+  - {fileID: 11400000, guid: 4385c48b9be6cc64a8ee90a08b2d31df, type: 2}

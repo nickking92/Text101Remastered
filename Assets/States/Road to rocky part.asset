@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e28c798bcbc64546ac78508c0912f2c, type: 3}
+  m_Name: Road to rocky part
+  m_EditorClassIdentifier: 
+  storyText: 'You decided to follow rocks, you stumble across path that splits in
+    two...
+
+
+
+    1. Go to rocky part         2. Go to the plane
+
+
+    3. Go back to the beach
+
+
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: f1f666c1fb1ae3e42950d9b090e650b4, type: 2}
+  - {fileID: 11400000, guid: 38f9cc751d6ba174d9985c8204f14dfd, type: 2}
+  - {fileID: 11400000, guid: 6d964e8421da6694abb2be7f21073c36, type: 2}

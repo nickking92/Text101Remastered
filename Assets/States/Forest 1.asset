@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e28c798bcbc64546ac78508c0912f2c, type: 3}
+  m_Name: Forest 1
+  m_EditorClassIdentifier: 
+  storyText: 'Following the road you hear the loud noice,you worst nightmare, big
+    black bear is in front of you...
+
+
+    1. Jump from the cliff in the water    2.Fight bear with a knife
+
+
+    3. You dont have a weapon you will need to use your fists'
+  nextStates:
+  - {fileID: 11400000, guid: 4385c48b9be6cc64a8ee90a08b2d31df, type: 2}
+  - {fileID: 11400000, guid: 2a05b2f0b07c3b744a761708c99a0e0b, type: 2}
+  - {fileID: 11400000, guid: 6d6c32ebb7fa7b74aac04649d7ccdd9b, type: 2}

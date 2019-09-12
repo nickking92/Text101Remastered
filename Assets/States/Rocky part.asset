@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e28c798bcbc64546ac78508c0912f2c, type: 3}
+  m_Name: Rocky part
+  m_EditorClassIdentifier: 
+  storyText: "Its a dead end...its a cliff with rocks at the bottom\n\n1. Go back
+    \       \n\n\n"
+  nextStates:
+  - {fileID: 11400000, guid: d0670f12e341eaf4dbf8ca4402abde6d, type: 2}

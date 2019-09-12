@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e28c798bcbc64546ac78508c0912f2c, type: 3}
+  m_Name: Forest 3
+  m_EditorClassIdentifier: 
+  storyText: 'Thanks to the knife you found bear is defeated and you can continue
+    your jouney
+
+
+
+    1. Follow the road '
+  nextStates:
+  - {fileID: 11400000, guid: bed97ae921e5d8641a78936d17c00903, type: 2}
